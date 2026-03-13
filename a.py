@@ -1,5 +1,10 @@
-import turtle
+import math
 
-turtle.Vec2D
-print("hlw ")
-print("first change")
+
+def area(a, b):
+    return a * b
+
+
+l = int(input("enter length of rectangle"))
+b = int(input("enter breath of rectangle"))
+print(area(l, b))
